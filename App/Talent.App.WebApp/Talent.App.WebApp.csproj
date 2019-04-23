@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\js\react\node_modules\**" />
+    <Compile Remove="wwwroot\js\react\ReactScripts\NewFolder\**" />
+    <Content Remove="wwwroot\js\react\node_modules\**" />
+    <Content Remove="wwwroot\js\react\ReactScripts\NewFolder\**" />
+    <EmbeddedResource Remove="wwwroot\js\react\node_modules\**" />
+    <EmbeddedResource Remove="wwwroot\js\react\ReactScripts\NewFolder\**" />
+    <None Remove="wwwroot\js\react\node_modules\**" />
+    <None Remove="wwwroot\js\react\ReactScripts\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\util\NotificationFx\fonts\codropsicons\codropsicons.svg" />
+    <None Include="wwwroot\util\NotificationFx\fonts\linecons\linecons.svg" />
+    <None Include="wwwroot\util\NotificationFx\js\classie.js" />
+    <None Include="wwwroot\util\NotificationFx\js\modernizr.custom.js" />
+    <None Include="wwwroot\util\NotificationFx\js\notificationFx.js" />
+    <None Include="wwwroot\util\NotificationFx\js\snap.svg-min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\css\site.css">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

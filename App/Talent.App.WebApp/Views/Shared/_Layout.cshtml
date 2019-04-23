@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    @Html.Partial("_Head")
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Talent.App.WebApp</title>
+
+</head>
+<body>
+    <div class="container body-content">
+        @RenderBody()
+        @Html.Partial("_Footer")
+    </div>
+    <script src="/js/jquery-3.2.1.js"></script>
+    <script src="/js/semantic.js"></script>
+    <script src="~/util/Talent-lib.js"></script>
+    <script src="~/util/NotificationFx/js/modernizr.custom.js"></script>
+    <script src="~/util/NotificationFx/js/classie.js"></script>
+    <script src="~/util/NotificationFx/js/snap.svg-min.js"></script>
+    <script src="~/util/NotificationFx/js/notificationFx.js"></script>
+    <link href="~/util/NotificationFx/css/normalize.css" rel="stylesheet" />
+    <link href="~/util/NotificationFx/css/ns-default.css" rel="stylesheet" />
+    <link href="~/util/NotificationFx/css/ns-style-attached.css" rel="stylesheet" />
+    <link href="~/util/NotificationFx/css/ns-style-bar.css" rel="stylesheet" />
+    <link href="~/util/NotificationFx/css/ns-style-growl.css" rel="stylesheet" />
+    <link href="~/util/NotificationFx/css/ns-style-other.css" rel="stylesheet" />
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

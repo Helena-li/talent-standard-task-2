@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{5EC7FF92-5D05-4941-8192-DA14617F1D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talent.Core", "Talent.Core\Talent.Core.csproj", "{E97765B4-E3A3-4D0F-83BA-D86979D08590}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C9170FDC-2E0B-4950-869C-101C773BAE88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Talent.Api", "Talent.Api\Talent.Api.csproj", "{D23B5817-949D-4928-A9C9-32414AA2C67D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Talent.Services.Identity", "Talent.Services.Identity\Talent.Services.Identity.csproj", "{F16231EA-E431-4B34-AB90-8D27C67060C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Talent.Services.Profile", "Talent.Services.Profile\Talent.Services.Profile.csproj", "{CE8908DA-4B2E-4418-8257-A162681E8B49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Talent.Common", "Talent.Common\Talent.Common.csproj", "{2A420619-D095-4C16-8227-55A531C15F79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Talent.Services.Talent", "Talent.Services.Listing\Talent.Services.Talent.csproj", "{9E222117-5319-4B18-8182-169819F320C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{259B7C6E-8D2C-4A72-B345-CB221F73E228}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Talent.App.WebApp", "App\Talent.App.WebApp\Talent.App.WebApp.csproj", "{407032F9-D495-496E-93D9-39E144E60823}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E97765B4-E3A3-4D0F-83BA-D86979D08590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97765B4-E3A3-4D0F-83BA-D86979D08590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97765B4-E3A3-4D0F-83BA-D86979D08590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97765B4-E3A3-4D0F-83BA-D86979D08590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23B5817-949D-4928-A9C9-32414AA2C67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23B5817-949D-4928-A9C9-32414AA2C67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23B5817-949D-4928-A9C9-32414AA2C67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23B5817-949D-4928-A9C9-32414AA2C67D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F16231EA-E431-4B34-AB90-8D27C67060C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16231EA-E431-4B34-AB90-8D27C67060C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F16231EA-E431-4B34-AB90-8D27C67060C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F16231EA-E431-4B34-AB90-8D27C67060C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8908DA-4B2E-4418-8257-A162681E8B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8908DA-4B2E-4418-8257-A162681E8B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8908DA-4B2E-4418-8257-A162681E8B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8908DA-4B2E-4418-8257-A162681E8B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A420619-D095-4C16-8227-55A531C15F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A420619-D095-4C16-8227-55A531C15F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A420619-D095-4C16-8227-55A531C15F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A420619-D095-4C16-8227-55A531C15F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E222117-5319-4B18-8182-169819F320C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E222117-5319-4B18-8182-169819F320C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E222117-5319-4B18-8182-169819F320C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E222117-5319-4B18-8182-169819F320C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407032F9-D495-496E-93D9-39E144E60823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407032F9-D495-496E-93D9-39E144E60823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407032F9-D495-496E-93D9-39E144E60823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407032F9-D495-496E-93D9-39E144E60823}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E97765B4-E3A3-4D0F-83BA-D86979D08590} = {5EC7FF92-5D05-4941-8192-DA14617F1D3B}
+		{D23B5817-949D-4928-A9C9-32414AA2C67D} = {C9170FDC-2E0B-4950-869C-101C773BAE88}
+		{F16231EA-E431-4B34-AB90-8D27C67060C3} = {C9170FDC-2E0B-4950-869C-101C773BAE88}
+		{CE8908DA-4B2E-4418-8257-A162681E8B49} = {C9170FDC-2E0B-4950-869C-101C773BAE88}
+		{2A420619-D095-4C16-8227-55A531C15F79} = {C9170FDC-2E0B-4950-869C-101C773BAE88}
+		{9E222117-5319-4B18-8182-169819F320C6} = {C9170FDC-2E0B-4950-869C-101C773BAE88}
+		{407032F9-D495-496E-93D9-39E144E60823} = {259B7C6E-8D2C-4A72-B345-CB221F73E228}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC4F182D-967D-4EEA-96DA-EB9C106F5649}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://dev.mvp.studio:8080/tfs/mvpstudiocollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = App\\Talent.App.WebApp\\Talent.App.WebApp.csproj
+		SccProjectTopLevelParentUniqueName1 = Talent.sln
+		SccProjectName1 = App/Talent.App.WebApp
+		SccLocalPath1 = App\\Talent.App.WebApp
+		SccProjectUniqueName2 = Talent.Api\\Talent.Api.csproj
+		SccProjectTopLevelParentUniqueName2 = Talent.sln
+		SccProjectName2 = Talent.Api
+		SccLocalPath2 = Talent.Api
+		SccProjectUniqueName3 = Talent.Common\\Talent.Common.csproj
+		SccProjectTopLevelParentUniqueName3 = Talent.sln
+		SccProjectName3 = Talent.Common
+		SccLocalPath3 = Talent.Common
+		SccProjectUniqueName4 = Talent.Services.Identity\\Talent.Services.Identity.csproj
+		SccProjectTopLevelParentUniqueName4 = Talent.sln
+		SccProjectName4 = Talent.Services.Identity
+		SccLocalPath4 = Talent.Services.Identity
+		SccProjectUniqueName5 = Talent.Services.Listing\\Talent.Services.Talent.csproj
+		SccProjectTopLevelParentUniqueName5 = Talent.sln
+		SccProjectName5 = Talent.Services.Listing
+		SccLocalPath5 = Talent.Services.Listing
+		SccProjectUniqueName6 = Talent.Services.Profile\\Talent.Services.Profile.csproj
+		SccProjectTopLevelParentUniqueName6 = Talent.sln
+		SccProjectName6 = Talent.Services.Profile
+		SccLocalPath6 = Talent.Services.Profile
+	EndGlobalSection
+EndGlobal
